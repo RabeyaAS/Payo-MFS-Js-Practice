@@ -29,7 +29,7 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
 
     const pinNumberInput = document.getElementById('input-pin-number').value;
 
-    if(pinNumberInput === '12345'){
+    if(pinNumberInput === '123'){
         const balance = document.getElementById('account-balance').innerText;
 
         const balanceNumber = parseFloat(balance);
